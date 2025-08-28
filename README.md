@@ -30,7 +30,7 @@ It communicates with the backend REST API to manage tasks.
 # Setup Instructions (Windows CMD)
 #Clone the repo
 git clone https://github.com/yourusername/todo-frontend.git
-cd todo-frontend
+cd todoapp
 Step1: create client folder inside client folder copy all the frontend
 
 Step2: #Install dependencies
