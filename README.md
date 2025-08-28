@@ -24,7 +24,7 @@ It communicates with the backend REST API to manage tasks.
 #Clone the repo
 git clone https://github.com/yourusername/todo-frontend.git
 cd todoapp
-Step1: create client folder inside client folder copy all the frontend
+Step1: create client folder inside todoapp folder copy all the frontend
 
 Step2: #Install dependencies
 npm install
