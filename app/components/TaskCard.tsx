@@ -47,16 +47,14 @@ export default function TaskCard({ task, onToggle, onDelete }: Props) {
 
       {/* Delete button */}
       <button
-        onClick={() => {
-          if (confirm("Are you sure you want to delete this task?")) {
-            onDelete(task.id)
-          }
-        }}
-        className="text-red-600 ml-2"
-        title="Delete Task"
-      >
-        Delete
-      </button>
+  type="button"
+  onClick={() => onDelete(task.id)}
+  className="text-red-600 ml-2"
+  title="Delete Task"
+>
+  Delete
+</button>
+
     </li>
   )
 }

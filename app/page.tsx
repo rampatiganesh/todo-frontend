@@ -31,12 +31,12 @@ export default function Home() {
     setTasks(tasks.map(t => (t.id === id ? updated : t)))
   }
 
-  // delete with confirmation
-  const deleteTask = async (id: number) => {
-    if (!confirm("Are you sure you want to delete this task?")) return
-    await fetch(`http://localhost:4000/tasks/${id}`, { method: "DELETE" })
-    setTasks(tasks.filter(t => t.id !== id))
-  }
+ // delete with confirmation
+const deleteTask = async (id: number) => {
+  if (!confirm("Are you sure you want to delete this task?")) return
+  await fetch(`http://localhost:4000/tasks/${id}`, { method: "DELETE" })
+  setTasks(tasks.filter(t => t.id !== id))
+}
 
   // counts
   const total = tasks.length
