@@ -31,8 +31,9 @@ It communicates with the backend REST API to manage tasks.
 #Clone the repo
 git clone https://github.com/yourusername/todo-frontend.git
 cd todo-frontend
+Step1: create client folder
 
-#Install dependencies
+Step2: #Install dependencies
 npm install
 
 #Start Next.js dev server
