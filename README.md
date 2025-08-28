@@ -6,19 +6,12 @@
      - Title
      - Checkbox/toggle for completed status
      - Delete button
-   - Create Task button → navigates to form
-   - Summary text: "Tasks: X" and "Completed: Y of X"
-   - Clicking a task → navigates to Edit Task Page
 
 2. Create/Edit Task Page
    - Form with:
      - Title (required)
      - Color (red, blue, green options)
-   - Behavior:
-     - Create Task → saves new task, redirects to Home
-     - Edit Task → updates existing task, redirects to Home
-     - Back without saving → discard changes
-       
+
 3. Additional Features
    - Toggle completion directly on Home
    - Delete with confirmation
